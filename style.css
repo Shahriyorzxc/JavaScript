@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    background-color: #f0f0f0; /* Fon rangi */
+    font-family: Arial, sans-serif; /* Shrift turi */
+    text-align: center; /* Matn markazda */
+}
+
+h1 {
+    color: #4CAF50; /* Sarlavha rangi */
+    margin-top: 50px; /* Yuqoridan masofa */
+}
+
+p {
+    color: #555; /* Paragraf rangi */
+    font-size: 18px; /* Paragraf shrift o'lchami */
+}
+
+button {
+    background-color: #007BFF; /* Tugma rangi */
+    color: white; /* Tugma matn rangi */
+    border: none; /* Chegara yo'q */
+    padding: 10px 20px; /* Ichki masofa */
+    border-radius: 5px; /* Burchaklar yumshatilgan */
+    cursor: pointer; /* Sichqoncha ustiga olib borganida ko'rsatkich */
+    transition: background-color 0.3s; /* Rang o'zgarishi animatsiyasi */
+}
+
+button:hover {
+    background-color: #0056b3; /* Sichqoncha ustida bo'lganda rang o'zgarishi */
+}
